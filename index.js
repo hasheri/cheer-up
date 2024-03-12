@@ -26,7 +26,7 @@ app.post(ENDPOINT, async (req, res) => {
 // Endpoint for function documentation (GET request)
 app.get(ENDPOINT, (req, res) => {
   const docs = {
-    name: "cheerUP",
+    name: "cheerUp",
     description: "Provides a random compliment to boost your mood!",
     input: {
       type: "string",
